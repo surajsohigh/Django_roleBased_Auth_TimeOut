@@ -1,0 +1,36 @@
+Superuser
+
+id - suraj@gmail.com
+pass - admin
+
+
+
+
+Craeting User endpoint
+
+http://127.0.0.1:8000/register/
+
+json body
+
+{
+    "email": "test35@gmail.com",
+    "role": "employee",
+    "password": "12345" 
+}
+
+# other options: "'admin', 'manager' or 'employee' "
+
+
+
+
+
+login User endpoint
+http://127.0.0.1:8000/login/
+
+json body
+
+{
+    "email": "test35@gmail.com",
+    "password": "12345"
+}
+
